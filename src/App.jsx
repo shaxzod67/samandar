@@ -16,6 +16,7 @@ import HeaderMain from './companents/HeaderMain';
 import Product from './companents/Product';
 import { IoMdMenu } from "react-icons/io";
 import { MdLogout } from "react-icons/md";
+import SignUp from './Pages/SignUp';
 
 function App() {
   const { currentUser } = useContext(AuthContext);
